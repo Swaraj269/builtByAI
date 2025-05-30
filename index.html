@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div
+      class="navbar fixed left-0 top-0 z-[30] px-[4vw] md:px-[3vw] flex items-center justify-between h-[13vh] w-full"
+    >
+      <div class="left">
+        <h1
+          class="text-[#C0C0C0] Rajdhani leading-[1] text-[4.7vw] md:text-[1.6vw]"
+        >
+          BuiltBy-<span class="text-white font-[500] tracking-[0.1vw]">AI</span>
+        </h1>
+      </div>
+      <div class="right">
+        <a
+          href="#footer"
+          class="button bg-[#2F2B22] md:text-[1.15vw] text-[3vw] active:scale-[0.94] text-[#ECB46D] text-center hover:border-[#2F2B22] cursor-pointer duration-[0.5s] hover:text-[#2F2B22] hover:bg-[#ECB46D] py-2 px-4 md:px-6 rounded-full border-2 border-[#ECB46D]"
+        >
+          Book a Demo
+        </a>
+      </div>
+    </div>
+    <main>
+      <div class="hero h-screen w-full relative">
+        <div class="backgroundimage absolute h-full w-full z-[-1]">
+          <img
+            class="h-full w-full object-fit"
+            src="./Images/backgroundImage.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="herosection h-full w-full flex flex-col items-center justify-center"
+        >
+          <div class="heroheading">
+            <div class="overflow-hidden">
+              <h1
+                class="split Rajdhani leading-[1] text-[6vw] md:text-[3.5vw] text-[#C0C0C0] text-center"
+              >
+                Elevate Your <span class="text-white">Construction</span> with
+              </h1>
+            </div>
+            <div class="overflow-hidden">
+              <h1
+                class="split Rajdhani leading-[1.1] text-[6vw] md:text-[3.5vw] text-[#C0C0C0] text-center"
+              >
+                Immersive <span class="text-white">XR Solutions </span>
+              </h1>
+            </div>
+          </div>
+          <div class="heroimage h-[80vw] w-[90vw] md:h-[25vw] md:w-[30vw]">
+            <img
+              class="h-full w-full object"
+              src="./Images/heroImage.png"
+              alt=""
+            />
+          </div>
+          <div class="ctatext">
+            <div class="overflow-hidden">
+              <h1
+                class="split Rajdhani leading-[1.3] text-[3.7vw] md:text-[1.1vw] text-[#C0C0C0] text-center"
+              >
+                Boost conversions and customer engagement
+              </h1>
+            </div>
+            <div class="overflow-hidden">
+              <h1
+                class="split Rajdhani leading-[1.3] text-[3.7vw] md:text-[1.1vw] text-[#C0C0C0] text-center"
+              >
+                with immersive and interactive experiences
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pin h-screen w-full relative overflow-hidden">
+        <div
+          class="services bg-black h-full w-full absolute top-0 left-0 z-[3] overlay"
+        >
+          <div
+            class="service heading h-[8vh] md:h-[15vh] w-full flex items-end justify-center"
+          >
+            <div class="overflow-hidden">
+              <h1
+                class="Rajdhani leading-[1] font-[500] text-[7vw] md:text-[3.5vw] text-[#c0c0c0] text-center"
+              >
+                Services
+              </h1>
+            </div>
+          </div>
+          <div
+            class="content h-[92vh] md:h-[80vh] w-full flex flex-col md:flex-row items-center justify-center gap-[8vw] md:gap-[5vw]"
+          >
+            <div
+              class="h-[25%] w-[90%] md:h-[80%] Rajdhani text-[#ECB46D] px-[3vw] md:px-[1vw] hover:scale-[1.1] duration-[0.8s] md:w-[20%] bg-[#2F2B22] border-2 border-[#ECB46D] rounded-[2vw] card"
+            >
+              <div class="upperpart h-[50%] w-full py-[3vw] md:py-[1vw]">
+                <div
+                  class="leftpart gap-[5vw] md:gap-[0] flex md:flex-col items-center md:items-start flex-row"
+                >
+                  <h1 class="text-[10vw] md:text-[5vw] font-[550] leading-[1]">
+                    01.
+                  </h1>
+
+                  <div class="div">
+                    <h2 class="text-[5vw] md:text-[2vw] font-[500] md:mt-[1vw]">
+                      3D PRINTING
+                    </h2>
+                    <h2
+                      class="text-[2.7vw] md:text-[1vw] w-full md:w-[80%] text-pretty leading-[1.2]"
+                    >
+                      Experience Your Building in the Palm of Your Hand !
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="lowerpart flex items-end h-[50%] w-full pb-[3vw]">
+                <p
+                  class="text-[3.2vw] md:text-[1.2vw] font-[300] leading-[1.18] text-balanced"
+                >
+                  Using advanced 3D printing, we create a miniature model of
+                  your final building, giving you a real-world feel of your
+                  project. This detailed replica helps you visualize and refine
+                  your design, making your dream space tangible before
+                  construction begins.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[25%] w-[90%] md:h-[80%] Rajdhani text-[#ECB46D] px-[3vw] md:px-[1vw] hover:scale-[1.1] duration-[0.8s] md:w-[20%] bg-[#2F2B22] border-2 border-[#ECB46D] rounded-[2vw] card"
+            >
+              <div class="upperpart h-[50%] w-full py-[3vw] md:py-[1vw]">
+                <div
+                  class="leftpart gap-[5vw] md:gap-[0] flex md:flex-col items-center md:items-start flex-row"
+                >
+                  <h1 class="text-[10vw] md:text-[5vw] font-[550] leading-[1]">
+                    02.
+                  </h1>
+                  <div class="div">
+                    <h2 class="text-[5vw] md:text-[2vw] font-[500] md:mt-[1vw]">
+                      VIRTUAL REALITY
+                    </h2>
+                    <h2
+                      class="text-[2.7vw] md:text-[1vw] w-full md:w-[80%] text-pretty leading-[1.2]"
+                    >
+                      Experience Your Building Like Never Before with Virtual
+                      Reality.
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="lowerpart flex items-end h-[50%] w-full pb-[3vw]">
+                <p
+                  class="text-[3.2vw] md:text-[1.2vw] font-[300] leading-[1.18] text-balanced"
+                >
+                  With our virtual reality technology, you can step into your
+                  future building and explore it as if it's already built. Walk
+                  through every room, feel the space, and make informed
+                  decisions with a fully immersive experience, all before
+                  construction begins.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[25%] w-[90%] md:h-[80%] Rajdhani text-[#ECB46D] px-[3vw] md:px-[1vw] hover:scale-[1.1] duration-[0.8s] md:w-[20%] bg-[#2F2B22] border-2 border-[#ECB46D] rounded-[2vw] card"
+            >
+              <div class="upperpart h-[50%] w-full py-[3vw] md:py-[1vw]">
+                <div
+                  class="leftpart gap-[5vw] md:gap-[0] flex md:flex-col items-center md:items-start flex-row"
+                >
+                  <h1 class="text-[10vw] md:text-[5vw] font-[550] leading-[1]">
+                    03.
+                  </h1>
+                  <div class="div">
+                    <h2 class="text-[5vw] md:text-[2vw] font-[500] md:mt-[1vw]">
+                      2D & 3D PLAN
+                    </h2>
+                    <h2
+                      class="text-[2.7vw] md:text-[1vw] w-full md:w-[80%] text-pretty leading-[1.2]"
+                    >
+                      With our 2D and 3D plan services, you can see your project
+                      come to life before it's built.
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="lowerpart flex items-end h-[50%] w-full pb-[2.4vw]">
+                <p
+                  class="text-[3.3vw] md:text-[1.2vw] font-[300] leading-[1.18] text-balanced"
+                >
+                  Our 2D plans provide detailed layouts, elevations, and
+                  sections, ensuring clarity and precision for construction.
+                  Meanwhile, our 3D plans offer realistic, immersive models that
+                  help you visualize the design in its entirety, making it
+                  easier to make informed decisions and bring your vision to
+                  reality.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about h-full w-full relative z-[1]">
+          <div class="backgroundimage absolute h-full w-full z-[-1]">
+            <img
+              class="h-full w-full object-fit"
+              src="./Images/backgroundImage.png"
+              alt=""
+            />
+          </div>
+          <div class="contentdiv h-full w-full">
+            <div
+              class="heading h-[8%] md:h-[20%] w-full flex items-center justify-center"
+            >
+              <h1
+                class="Rajdhani leading-[1] font-[500] text-[7vw] md:text-[3.5vw] text-[#c0c0c0] text-center"
+              >
+                About Us
+              </h1>
+            </div>
+            <div
+              class="actualcontent flex flex-col-reverse md:flex-row h-[90%] md:h-[80%] w-full"
+            >
+              <div
+                class="leftpart flex flex-col justify-start pt-[20vw] md:pt-[5vw] gap-[2vw] md:gap-[0.6vw] px-[5vw] md:px-[3vw] h-full w-full md:w-[55%]"
+              >
+                <p
+                  class="Rajdhani text-[#c0c0c0] leading-[1.1] text-[3vw] md:text-[1.16vw] text-balanced"
+                >
+                  Welcome to Built By Al, a revolutionary platform transforming
+                  the way buildings are designed, visualized, and brought to
+                  life. Our mission is to bridge the gap between technology and
+                  construction, offering innovative solutions that redefine the
+                  industry standard.
+                </p>
+                <p
+                  class="Rajdhani text-[#c0c0c0] leading-[1.1] text-[3vw] md:text-[1.16vw] text-balanced"
+                >
+                  With advanced Al-driven tools, we specialize in creating
+                  precise AutoCAD 2D and 3D plans, tailored to meet unique
+                  client needs. Our platform integrates virtual reality
+                  walkthroughs, providing an immersive experience where clients
+                  can explore and refine their interiors before construction
+                  begins. To further enhance the design process, we offer 3D
+                  printing services, delivering detailed palm-sized models that
+                  showcase the final building in tangible form.
+                </p>
+                <p
+                  class="Rajdhani text-[#c0c0c0] leading-[1.1] text-[3vw] md:text-[1.16vw] text-balanced"
+                >
+                  Beyond design, Built By Al connects clients with top-rated
+                  civil engineers, architects, and project managers based on
+                  their expertise, ratings, and previous projects. This ensures
+                  seamless collaboration and exceptional results, empowering
+                  clients to bring their visions to life with confidence.
+                </p>
+                <p
+                  class="Rajdhani text-[#c0c0c0] leading-[1.1] text-[3vw] md:text-[1.16vw] text-balanced"
+                >
+                  At Built By Al, we combine creativity, technology, and trust
+                  to build the future one project at a time. Whether you're
+                  planning a new construction or reimagining an existing space,
+                  our platform is your partner in innovation and excellence.
+                </p>
+                <div
+                  class="morecontent mt-[2vw] flex flex-col md:flex-row w-full items-start md:items-center"
+                >
+                  <div class="left w-full md:w-[50%]">
+                    <h1
+                      class="text-[#ECB46D] leading-[1.1] font-[500] text-[5vw] md:text-[1.6vw] text-balanced"
+                    >
+                      Our Mission
+                    </h1>
+                    <h1
+                      class="text-[#c0c0c0] mt-[1vw] md:mt-[0.3vw] leading-[1] text-[2.5vw] md:text-[0.9vw] text-balanced"
+                    >
+                      To build trust and deliver excellence by blending
+                      cutting-edge technology with human expertise, making
+                      construction smarter, transparent, and customer-centric.
+                    </h1>
+                  </div>
+                  <div class="left w-full md:w-[50%]">
+                    <h1
+                      class="text-[#ECB46D] leading-[1.1] mt-[1.5vw] md:mt-[0vw] font-[500] text-[5vw] md:text-[1.6vw] text-balanced"
+                    >
+                      Our Vision
+                    </h1>
+                    <h1
+                      class="text-[#c0c0c0] mt-[1vw] md:mt-[0.3vw] leading-[1] text-[2.5vw] md:text-[0.9vw] text-balanced"
+                    >
+                      To be the leading platform that redefines the construction
+                      industry, empowering clients to shape their dream projects
+                      with confidence and ease.
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rightpart relative h-[50%] w-full md:h-full md:w-[45%]"
+              >
+                <div
+                  class="image1 bg-[#2F2B22] duration-[0.5s] hover:scale-[1.1] border-2 border-[#ECB46D] absolute rounded h-[30vw] w-[40vw] md:h-[15vw] md:w-[20vw] top-[50%] left-[50%] md:left-[70%] translate-x-[-50%] translate-y-[-50%]"
+                >
+                  <img
+                    class="h-full w-full object-contain"
+                    src="./Images/aboutImage1.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="image1 bg-[#2F2B22] duration-[0.5s] hover:scale-[1.1] border-2 border-[#ECB46D] absolute rounded h-[20vw] w-[30vw] md:h-[12vw] md:w-[16vw] top-[20%] left-[30%] md:left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                >
+                  <img
+                    class="h-full w-full object-contain"
+                    src="./Images/aboutImage2.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="image1 bg-[#2F2B22] duration-[0.5s] hover:scale-[1.1] border-2 border-[#ECB46D] absolute rounded h-[15vw] w-[25vw] md:h-[10vw] md:w-[18vw] top-[80%] left-[70%] md:left-[60%] translate-x-[-50%] translate-y-[-50%]"
+                >
+                  <img
+                    class="h-full w-full object-contain"
+                    src="./Images/aboutImage3.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer" class="footer bg-black h-screen w-full relative">
+        <div
+          class="bookademo pb-[2vw] flex flex-col items-center justify-center md:justify-end h-[88%] w-full"
+        >
+          <h1 class="text-[#ECB46D] text-[8vw] md:text-[2.6vw] font-[500]">
+            Get In Touch
+          </h1>
+          <form class="space-y-[3vw] mt-[4vw] md:space-y-4 w-[80%] md:w-[30%]">
+            <!-- Name -->
+            <div>
+              <label
+                class="block pl-4 text-[3.5vw] md:text-[1.3vw] font-medium text-[#c0c0c0] mb-1"
+                for="name"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+                class="w-full px-4 py-2 border-2 bg-[#2F2B22] text-white border-[#ECB46D] rounded-lg focus:ring-2 focus:ring-[#ECB46D] focus:outline-none"
+              />
+            </div>
+
+            <!-- Gmail -->
+            <div>
+              <label
+                class="block pl-4 text-[3.5vw] md:text-[1.3vw] font-medium text-[#c0c0c0] mb-1"
+                for="gmail"
+                >Gmail</label
+              >
+              <input
+                type="email"
+                id="gmail"
+                name="gmail"
+                placeholder="you@gmail.com"
+                required
+                class="w-full px-4 py-2 border-2 bg-[#2F2B22] text-white border-[#ECB46D] rounded-lg focus:ring-2 focus:ring-[#ECB46D] focus:outline-none"
+              />
+            </div>
+
+            <!-- Service -->
+            <div>
+              <label
+                class="block pl-4 text-[3.5vw] md:text-[1.3vw] font-medium text-[#c0c0c0] mb-1"
+                for="service"
+                >Service</label
+              >
+              <select
+                id="service"
+                name="service"
+                required
+                class="w-full px-4 py-2 border-2 bg-[#2F2B22] text-white border-[#ECB46D] rounded-lg focus:ring-2 focus:ring-[#ECB46D] focus:outline-none"
+              >
+                <option value="" disabled selected>Select a service</option>
+                <option value="web">3D PRINTING</option>
+                <option value="design">VIRTUAL REALITY</option>
+                <option value="seo">2D & 3D PLAN</option>
+                <option value="consulting">Consulting</option>
+              </select>
+            </div>
+
+            <!-- Message -->
+            <div>
+              <label
+                class="block pl-4 text-[3.5vw] md:text-[1.3vw] font-medium text-[#c0c0c0] mb-1"
+                for="message"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Your message..."
+                class="w-full px-4 py-2 border-2 bg-[#2F2B22] text-white border-[#ECB46D] rounded-lg focus:ring-2 focus:ring-[#ECB46D] focus:outline-none"
+              ></textarea>
+            </div>
+
+            <!-- Submit -->
+            <button
+              type="submit"
+              class="w-full bg-transparent duration-[0.3s] border-2 cursor-pointer active:scale-[0.98] border-[#ECB46D] text-white py-3 px-4 rounded-lg hover:text-black hover:bg-[#ECB46D] transition"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+        <div class="actualfooter h-[12%] w-full px-[4vw] md:px-[3vw]">
+          <div
+            class="social w-full h-full flex flex-col md:flex-row items-start md:items-end pb-[1vw] justify-end gap-[1.2vw] md:gap-[0vw] md:justify-between"
+          >
+            <div class="social flex items-center gap-[6vw] md:gap-[1.4vw]">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/buit.by.ai?igsh=MTFtOTJkb2xqazRsaw%3D%3D&utm_source=qr"
+                ><h1
+                  class="text-[6vw] md:text-[1.2vw] cursor-pointer hover:underline duration-[0.2s] text-[#ECB46D]"
+                >
+                  Instagram
+                </h1></a
+              >
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/builtby-ai-28488b368/"
+              >
+                <h1
+                  class="text-[6vw] md:text-[1.2vw] cursor-pointer hover:underline duration-[0.2s] text-[#ECB46D]"
+                >
+                  LinkedIn
+                </h1>
+              </a>
+            </div>
+            <div class="copyright">
+              <h1 class="text-[4vw] md:text-[1.2vw] text-center text-[#c0c0c0]">
+                © 2025 Built By AI. All rights reserved.
+              </h1>
+            </div>
+            <div class="credit">
+              <h1 class="text-[4vw] md:text-[1.2vw] text-[#ECB46D]">
+                Designed and Developed by
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/swaraj-singh-47aa682a6/"
+                  ><span class="underline cursor-pointer">Swaraj Singh</span></a
+                >
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js"
+      integrity="sha512-wOeEC+9qERAzhliwBFPDb6t8TiFFxdxG8vhK/Ygs7TuC44bpg8pg/X2/U/u+0X4fK05wb9id1EIipnF02+CFQw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

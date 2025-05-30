@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+p,
+h2,
+a,
+label,
+input,
+select,
+option,
+button {
+  font-family: "Rajdhani", sans-serif;
+}
